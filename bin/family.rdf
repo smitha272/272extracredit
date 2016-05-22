@@ -1,0 +1,49 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rel="http://purl.org/vocab/relationship/">
+<rdf:Description rdf:about="http://family/Srikanth/">
+	<rel:sibilingOf>
+	<rdf:Description rdf:about="http://family/Kala">
+	<rel:parentOf>
+	<rdf:Description rdf:about="http://family/Smitha">
+	<rel:childOf>
+	<rdf:Description rdf:about="http://family/Ramani">
+	<rel:parentOf rdf:resource="http://family/Smitha"/>
+	<rel:spouseOf rdf:resource="http://family/Kala"/>
+	</rdf:Description>
+	</rel:childOf>
+	<rel:childOf rdf:resource="http://family/Kala"/>
+	</rdf:Description>
+	</rel:parentOf>
+	<rel:spouseOf rdf:resource="http://family/Ramani"/>
+	<rel:siblingOf rdf:resource="http://family/Srikanth"/>
+	<rel:childOf>
+		<rdf:Description rdf:about="http://family/Chitra">
+	<rel:parentOf rdf:resource="http://family/Kala"/>
+	<rel:parentOf rdf:resource="http://family/Srikanth"/>
+	<rel:spouseOf>
+	<rdf:Description rdf:about="http://family/Vaithee">
+		<rel:parentOf rdf:resource="http://family/Kala"/>
+		<rel:parentOf rdf:resource="http://family/Srikanth"/>
+		<rel:spouseOf rdf:resource="http://family/Chitra"/>
+		<rel:sibilingOf>
+	<rdf:Description rdf:about="http://family/Madhu">
+		<rel:spouseOf>
+	<rdf:Description rdf:about="http://family/Raghav">
+		<rel:spouseOf rdf:resource="http://family/Madhu"/>
+	</rdf:Description>
+	</rel:spouseOf>
+	<rel:sibilingOf rdf:resource="http://family/Vaithee"/>
+	</rdf:Description>
+	</rel:sibilingOf>
+	</rdf:Description>
+	</rel:spouseOf>
+	</rdf:Description>
+	</rel:childOf>
+	<rel:childOf rdf:resource="http://family/Vaithee"/>
+	</rdf:Description>
+	</rel:sibilingOf>
+	<rel:childOf rdf:resource="http://family/Chitra"/>
+	<rel:childOf rdf:resource="http://family/Vaithee"/>
+	</rdf:Description>
+	</rdf:RDF>
